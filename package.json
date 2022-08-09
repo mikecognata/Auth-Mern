@@ -1,0 +1,30 @@
+{
+  "name": "auth-mern",
+  "version": "1.0.0",
+  "description": "Authentication App with Node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikecognata/Auth-Mern.git"
+  },
+  "keywords": [],
+  "author": "neokage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikecognata/Auth-Mern/issues"
+  },
+  "homepage": "https://github.com/mikecognata/Auth-Mern#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
